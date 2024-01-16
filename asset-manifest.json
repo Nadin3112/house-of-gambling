@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/house-of-gambling/static/css/main.e6c13ad2.css",
+    "main.js": "/house-of-gambling/static/js/main.1e164f0e.js",
+    "static/js/787.25eaef86.chunk.js": "/house-of-gambling/static/js/787.25eaef86.chunk.js",
+    "index.html": "/house-of-gambling/index.html",
+    "main.e6c13ad2.css.map": "/house-of-gambling/static/css/main.e6c13ad2.css.map",
+    "main.1e164f0e.js.map": "/house-of-gambling/static/js/main.1e164f0e.js.map",
+    "787.25eaef86.chunk.js.map": "/house-of-gambling/static/js/787.25eaef86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.1e164f0e.js"
+  ]
+}
