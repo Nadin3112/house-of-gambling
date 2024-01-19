@@ -7,8 +7,8 @@ export const DesktopMenuUser: React.FC = () => {
     return (
         <S.MenuUser>
             <LangMenu />
-            <Button btnType={'outlined'}>Log in</Button>
-            <Button btnType={'primary'}>Sign up</Button>
+            <Button aria-label={"log in"} btnType={'outlined'}>Log in</Button>
+            <Button aria-label={"sign up"} btnType={'primary'}>Sign up</Button>
         </S.MenuUser>
     );
 };

@@ -5,8 +5,8 @@ import { Button } from '../../../../components/Button';
 export const MobileMenuUser:React.FC = () => {
     return (
         <S.MenuUser>
-            <Button btnType={'outlined'}>Log in</Button>
-            <Button btnType={'primary'}>Sign up</Button>
+            <Button aria-label={"log in"} btnType={'outlined'}>Log in</Button>
+            <Button aria-label={"sign up"} btnType={'primary'}>Sign up</Button>
         </S.MenuUser>
     );
 };

@@ -9,7 +9,7 @@ const langs = [
 export const LangMenu: React.FC = () => {
     return (
         <S.LangMenu>
-            <select>
+            <select aria-label={"translate to"}>
                 {langs.map((lang, index) => {
                     return <option key={index}
                         value={lang.value}>

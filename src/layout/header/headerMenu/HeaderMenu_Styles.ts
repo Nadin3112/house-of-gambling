@@ -85,7 +85,6 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
 
   ${props => props.isOpen && css <{ isOpen: boolean }> `
     background-image: url(${close});
-
   `}
 `
 
@@ -156,6 +155,7 @@ const LangMenu = styled.div`
     line-height: 20px;
     text-transform: uppercase;
     cursor: pointer;
+    z-index: 99999;
 
       @media ${theme.media.tablet} {
         color: transparent;
