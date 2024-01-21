@@ -4,8 +4,9 @@ export const theme = {
     font:"#ffffff",
     accent: "#478bf9",
     borderBtn: "#9dadf2",
-    bgCFooter: "#1e1231",
-    bgBlog: "rgba(255, 255, 255, 0.12)"
+    secondaryBg: "#1e1231",
+    bgBlog: "rgba(255, 255, 255, 0.12)",
+    fontText: "rgba(255, 255, 255, 0.6)"
   },
 
   media: {
