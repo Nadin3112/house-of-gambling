@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Icon } from '../../../components/icon/Icon';
-import { FlexWrapper } from '../../../components/FlexWrapper';
 
 const iconsOneData = [
     {
@@ -176,8 +175,6 @@ const iconsThreeData = [
 export const Banner: React.FC = () => {
     return (
         <BannerStyled>
-            <BannerTitle></BannerTitle>
-            <FlexWrapper >
                 <ul>
                     {iconsOneData.map((i, index) => {
                         return <li><Icon iconId={i.iconId} width={i.width} height={i.height} viewBox={i.viewBox} key={index} /></li>
@@ -193,25 +190,18 @@ export const Banner: React.FC = () => {
                         return <li><Icon iconId={i.iconId} width={i.width} height={i.height} viewBox={i.viewBox} key={index} /></li>
                     })}
                 </ul>
-            </FlexWrapper>
         </BannerStyled>
     );
 };
 
-const BannerStyled = styled.section`
-    
-    ${FlexWrapper} {
-        gap: 16px;
-    }
+const BannerStyled = styled.div`
+    display: flex;
+    gap: 16px;
 
     ul {
         display: flex;
         flex-direction: column;
         gap: 25px;
     }
-    
-`
-
-const BannerTitle = styled.h2`
     
 `

@@ -2,12 +2,11 @@ import React from 'react';
 import { Button } from '../../../components/Button';
 import styled from 'styled-components';
 import { theme } from '../../../styles/Theme';
-import { font } from '../../../styles/Common';
 
 export const Hero:React.FC = () => {
     return (
         <HeroStyled>
-            <MainTitle>House of <span>gambling</span></MainTitle>
+            <HeroTitle>House of <span>gambling</span></HeroTitle>
             <Text>Raise your ROI with direct advertiser</Text>
             <Button btnType={'primary'}>Become a Partner</Button>
         </HeroStyled>
@@ -15,23 +14,29 @@ export const Hero:React.FC = () => {
 };
 
 const HeroStyled = styled.section`
-    
+    max-width: 646px;
+    padding-top: 408px;
+
     ${Button} {
         padding: 20px 72px;
         border-radius: 48px;
-        ${font({family: "'Lexend', serif", lineHeight: 1.33, color: theme.colors.font, weight: 600, Fmax: 24, Fmin: 18 })};
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
         text-transform: uppercase;
 
         @media ${theme.media.mobile} {
             padding: 15px 20px;
+            font-size: 18px;
         }
     }
 `
 
-const MainTitle = styled.h1`
+const HeroTitle = styled.h1`
     margin: 0;
     margin-bottom: 24px;
-    ${font({family: "'Lexend', serif", color: theme.colors.font, weight: 500, Fmax: 96, Fmin: 46 })};
+    font-weight: 500;
+    font-size: 96px;
     line-height: 1;
     text-transform: uppercase;
 
@@ -42,16 +47,21 @@ const MainTitle = styled.h1`
     @media ${theme.media.mobile} {
         line-height: 50px;
         margin-bottom: 12px;
+        font-size: 46px;
     }
 `
 
 const Text = styled.p`
-    ${font({family: "'Lexend', serif", color: theme.colors.fontText, weight: 500, Fmax: 26, Fmin: 20 })};
+    color: ${theme.colors.fontText};
+    font-weight: 500;
+    font-size: 32px; 
     line-height: 1;
     margin-bottom: 48px;
 
     @media ${theme.media.mobile} {
         line-height: 26px;
-        margin-bottom: 24px
+        margin-bottom: 24px;
+        font-size: 20px;
+
     }
 `
