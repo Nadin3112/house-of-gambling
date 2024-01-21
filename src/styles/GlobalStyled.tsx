@@ -20,8 +20,8 @@ export const GlobalStyled = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     min-width: 320px;
     height: 100vh;
-    padding: 16px 10px 0;
     background-color: ${theme.colors.primaryBg};
+    color: ${theme.colors.font};
 
     @media ${theme.media.tablet} {
       padding-top: 10px;

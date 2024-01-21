@@ -10,7 +10,7 @@ export const Main = () => {
     return (
         <MainStyled>
             <Container>
-                <FlexWrapper justify={"space-between"} align={"center"}>
+                <FlexWrapper justify={"space-between"}>
                     <Hero />
                     <Banner />
                     <Blog/>
@@ -21,7 +21,8 @@ export const Main = () => {
 };
 
 const MainStyled = styled.main`
+    overflow: hidden;
     ${FlexWrapper} {
-        gap: 40px;
+        gap: 65px;
     }
 `
