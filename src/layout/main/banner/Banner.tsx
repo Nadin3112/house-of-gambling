@@ -175,33 +175,53 @@ const iconsThreeData = [
 export const Banner: React.FC = () => {
     return (
         <BannerStyled>
-                <ul>
-                    {iconsOneData.map((i, index) => {
-                        return <li><Icon iconId={i.iconId} width={i.width} height={i.height} viewBox={i.viewBox} key={index} /></li>
-                    })}
-                </ul>
-                <ul>
-                    {iconsTwoData.map((i, index) => {
-                        return <li><Icon iconId={i.iconId} width={i.width} height={i.height} viewBox={i.viewBox} key={index} /></li>
-                    })}
-                </ul>
-                <ul>
-                    {iconsThreeData.map((i, index) => {
-                        return <li><Icon iconId={i.iconId} width={i.width} height={i.height} viewBox={i.viewBox} key={index} /></li>
-                    })}
-                </ul>
+            <ul>
+                {iconsOneData.map((i, index) => {
+                    return <li><Icon iconId={i.iconId} width={i.width} height={i.height} viewBox={i.viewBox} key={index} /></li>
+                })}
+            </ul>
+            <ul>
+                {iconsTwoData.map((i, index) => {
+                    return <li><Icon iconId={i.iconId} width={i.width} height={i.height} viewBox={i.viewBox} key={index} /></li>
+                })}
+            </ul>
+            <ul>
+                {iconsThreeData.map((i, index) => {
+                    return <li><Icon iconId={i.iconId} width={i.width} height={i.height} viewBox={i.viewBox} key={index} /></li>
+                })}
+            </ul>
         </BannerStyled>
     );
 };
 
 const BannerStyled = styled.div`
     display: flex;
-    gap: 16px;
+    gap: 17px;
+    height: 1026px;
+    //margin-right: 58px;
 
     ul {
         display: flex;
         flex-direction: column;
         gap: 25px;
     }
+
+    ul:nth-of-type(odd) {
+        animation: translateOdd 20s ease-in infinite alternate;
+    }
+
+    ul:nth-of-type(even) {
+        animation: translateEven 20s ease-in infinite alternate-reverse;
+    }
+
+    @keyframes translate {
+        0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+        }
+        
     
 `

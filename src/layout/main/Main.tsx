@@ -10,7 +10,7 @@ export const Main = () => {
     return (
         <MainStyled>
             <Container>
-                <FlexWrapper justify={"space-between"}>
+                <FlexWrapper  wrap={"wrap"}>
                     <Hero />
                     <Banner />
                     <Blog/>
@@ -22,7 +22,8 @@ export const Main = () => {
 
 const MainStyled = styled.main`
     overflow: hidden;
+    flex-grow: 1;
     ${FlexWrapper} {
-        gap: 65px;
+        gap: 58px;
     }
 `

@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { theme } from '../../../styles/Theme';
 
 const Blog = styled.section`
-    padding-top: 250px;
+    padding: 140px 0 130px;
+
 `
 const BlogTitle = styled.h2`
     margin: 0;
@@ -25,6 +26,7 @@ const BlogContainer = styled.div`
     border-radius: 100px;
     border: 3px solid ${theme.colors.accent};
     padding-right: 16px;
+    
 `
 
 const BlogList = styled.ul`
@@ -35,6 +37,8 @@ const BlogList = styled.ul`
     height: 595px;
     padding: 24px 16px 24px 24px;
     overflow: auto;
+    scrollbar-width: 8px;
+    scrollbar-color: ${theme.colors.accent} ${theme.colors.bgBlog};
     
     
 
@@ -74,7 +78,7 @@ const BlogLink = styled.a`
 `
 
 const BlogText = styled.p`
-    width: 339px;
+    width: 333px;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 14px;
