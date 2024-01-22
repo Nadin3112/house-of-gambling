@@ -42,10 +42,6 @@ export const Footer = () => {
 };
 
 const FooterStyled = styled.footer`
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
     padding: 40px 0 24px;
     border-radius: 64px 64px 0px 0px;
     border-top: 4px solid ${theme.colors.accent};

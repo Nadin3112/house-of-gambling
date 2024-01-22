@@ -18,6 +18,9 @@ export const GlobalStyled = createGlobalStyle`
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     min-width: 320px;
     height: 100vh;
     background-color: ${theme.colors.primaryBg};
