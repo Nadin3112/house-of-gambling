@@ -5,16 +5,18 @@ import { Container } from '../../components/Container';
 import { FooterMenu } from './menu/FooterMenu';
 import { FlexWrapper } from '../../components/FlexWrapper';
 import { Icon } from '../../components/icon/Icon';
+import bgSocial from '../../assets/images/bg-social.svg';
+import bgSocialHover from '../../assets/images/bg-social-hover.svg';
 
 const socialItemsData = [
-    { iconId: "twitter", ariaLabel: "twitter", href: "#", width: "32", height: "32", viewBox: "0 0 32 32" },
-    { iconId: "facebook", ariaLabel: "facebook", href: "#", width: "32", height: "32", viewBox: "0 0 32 32" },
-    { iconId: "instagram", ariaLabel: "instagram", href: "#", width: "32", height: "32", viewBox: "0 0 32 32" },
-    { iconId: "linkedin", ariaLabel: "linkedin", href: "#", width: "32", height: "32", viewBox: "0 0 32 32" },
-    { iconId: "YouTube", ariaLabel: "YouTube", href: "#", width: "32", height: "32", viewBox: "0 0 32 32" },
-    { iconId: "TikTok", ariaLabel: "TikTok", href: "#", width: "32", height: "32", viewBox: "0 0 32 32" },
-    { iconId: "telegram", ariaLabel: "telegram", href: "#", width: "32", height: "32", viewBox: "0 0 32 32" },
-    { iconId: "vk", ariaLabel: "vk", href: "#", width: "32", height: "32", viewBox: "0 0 32 32" }
+    { iconId: "twitter", ariaLabel: "twitter", href: "#", width: "16", height: "16", viewBox: "0 0 16 16" },
+    { iconId: "facebook", ariaLabel: "facebook", href: "#", width: "16", height: "16", viewBox: "0 0 16 16" },
+    { iconId: "instagram", ariaLabel: "instagram", href: "#", width: "16", height: "16", viewBox: "0 0 16 16" },
+    { iconId: "linkedin", ariaLabel: "linkedin", href: "#", width: "16", height: "16", viewBox: "0 0 16 16" },
+    { iconId: "YouTube", ariaLabel: "YouTube", href: "#", width: "16", height: "16", viewBox: "0 0 16 16" },
+    { iconId: "TikTok", ariaLabel: "TikTok", href: "#", width: "16", height: "16", viewBox: "0 0 16 16" },
+    { iconId: "telegram", ariaLabel: "telegram", href: "#", width: "16", height: "16", viewBox: "0 0 16 16" },
+    { iconId: "vk", ariaLabel: "vk", href: "#", width: "16", height: "16", viewBox: "0 0 16 16" }
 ]
 
 export const Footer = () => {
@@ -73,10 +75,19 @@ const SocialList = styled.ul`
 `
 
 const SocialItem = styled.li`
-    width: 32px;
-    height: 32px;
+
 `
 
 const SocialLink = styled.a`
-    
+    width: 32px;
+    height: 32px;
+    background-image: url(${bgSocial});
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-image: url(${bgSocialHover});
+    }
+
 `
