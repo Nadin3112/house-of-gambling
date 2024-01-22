@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/house-of-gambling/static/css/main.31d6cfe0.css",
-    "main.js": "/house-of-gambling/static/js/main.8317c0e5.js",
+    "main.js": "/house-of-gambling/static/js/main.67436ca7.js",
     "static/js/787.25eaef86.chunk.js": "/house-of-gambling/static/js/787.25eaef86.chunk.js",
-    "static/media/icons-sprite.svg": "/house-of-gambling/static/media/icons-sprite.ce852d961b11492ecd84b9c89a200c09.svg",
+    "static/media/icons-sprite.svg": "/house-of-gambling/static/media/icons-sprite.12d6103e0e1090dff50eeb07abd85875.svg",
     "static/media/logo@2x.webp": "/house-of-gambling/static/media/logo@2x.09a7e3bd638101ec3803.webp",
     "static/media/logo@2x.avif": "/house-of-gambling/static/media/logo@2x.2db74fc760ab3fcb18fb.avif",
     "static/media/logo.webp": "/house-of-gambling/static/media/logo.a4aaf184e3336bf7ce04.webp",
@@ -17,11 +17,11 @@
     "index.html": "/house-of-gambling/index.html",
     "static/media/menu.svg": "/house-of-gambling/static/media/menu.05d2b082d333e6a264f5a0e27a367e0c.svg",
     "static/media/close.svg": "/house-of-gambling/static/media/close.38f7b4d996fddc8e0f29c017a736d1b4.svg",
-    "main.8317c0e5.js.map": "/house-of-gambling/static/js/main.8317c0e5.js.map",
+    "main.67436ca7.js.map": "/house-of-gambling/static/js/main.67436ca7.js.map",
     "787.25eaef86.chunk.js.map": "/house-of-gambling/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.8317c0e5.js"
+    "static/js/main.67436ca7.js"
   ]
 }
