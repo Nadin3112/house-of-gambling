@@ -35,7 +35,7 @@ const BlogList = styled.ul`
     gap: 14px;
     border-radius: 100px;
     height: 595px;
-    padding: 24px 16px 24px 24px;
+    padding: 24px 16px 36px 24px;
     overflow: auto;
     scrollbar-width: 8px;
     scrollbar-color: ${theme.colors.accent} ${theme.colors.bgBlog};
@@ -49,7 +49,7 @@ const BlogList = styled.ul`
 
     &::-webkit-scrollbar-track {
         border-radius: 10px;
-        margin: 100px 0;
+        margin: 96px 0;
         background-color: ${theme.colors.bgBlog};
     }
 

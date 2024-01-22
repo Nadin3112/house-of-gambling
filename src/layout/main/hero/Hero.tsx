@@ -16,8 +16,7 @@ export const Hero:React.FC = () => {
 const HeroStyled = styled.section`
     max-width: 658px;
     padding: 296px 0 0 8px;
-    //margin-right: 58px;
-
+    
     ${Button} {
         padding: 20px 72px;
         border-radius: 48px;
