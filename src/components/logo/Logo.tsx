@@ -30,7 +30,8 @@ export const Logo:React.FC = () => {
 };
 
 const LogoLink = styled.a`
-
+    display: block;
+    z-index: 999;
 `
 const Image = styled.img`
     

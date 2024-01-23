@@ -5,7 +5,6 @@ import close from '../../../assets/images/close.svg';
 import menu from '../../../assets/images/menu.svg';
 import planet from '../../../assets/images/planet.svg';
 import planetMobile from '../../../assets/images/planet-mobile.svg';
-import { FlexWrapper } from '../../../components/FlexWrapper';
 
 //Menu
 const MenuItem = styled.li`
@@ -36,28 +35,34 @@ const NavLink = styled.a`
 
 //MobileMenu
 const MobileMenu = styled.nav`
-  ${FlexWrapper} {
-    gap: 8px;
-  }
+  
 
   ${Button} {
     padding: 8px;
   }
 `
 
+const BurgerWrapper = styled.div`
+  display: flex;
+  gap: 8px;
+
+`
+
 const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
   position: fixed;
-  top: 96px;
+  top: 0;
   bottom: 0;
   right: 0;
-  left: 0;
-  z-index: 99999;
+  width: 100%;
+  z-index: 99;
+  background-color: ${theme.colors.primaryBg};
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   gap: 30px;
   transform: translateY(-100%);
   transition: 1s ease-in-out;
+
 
   ${props => props.isOpen && css <{ isOpen: boolean }> `
     transform: translateY(0);
@@ -74,12 +79,13 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
   width: 28px;
   height: 28px;
   right: 14px;
+  top: 12px;
   background-repeat: no-repeat;
   background-color: transparent;
   background-image: url(${menu});
   background-size: 28px 28px;
   border: none;
-  z-index: 9999999;
+  z-index: 999;
   border: none;
   cursor: pointer;
 
@@ -102,7 +108,7 @@ const MenuList = styled.ul`
     flex-direction: column;
     justify-content: center;
     gap: 4px;
-    padding: 0;
+    padding-top: 96px;
   }
   
 `
@@ -117,6 +123,7 @@ const MenuUser = styled.div`
     flex-direction: column;
     justify-content: center;
     gap: 4px;
+    padding: 0;
   }
 `
 //LangMenu
@@ -155,7 +162,7 @@ const LangMenu = styled.div`
     line-height: 20px;
     text-transform: uppercase;
     cursor: pointer;
-    z-index: 99999;
+    z-index: 999;
 
       @media ${theme.media.tablet} {
         color: transparent;
@@ -174,6 +181,7 @@ export const S = {
   MenuItem,
   NavLink,
   MobileMenu,
+  BurgerWrapper,
   MobileMenuPopup,
   BurgerButton,
   LangMenu
