@@ -32,6 +32,12 @@ const FooterList = styled.ul`
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+
+    @media ${theme.media.tablet} {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
 `
 const FooterItem = styled.li`
     
