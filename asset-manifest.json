@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/house-of-gambling/static/css/main.31d6cfe0.css",
-    "main.js": "/house-of-gambling/static/js/main.fa85b011.js",
+    "main.js": "/house-of-gambling/static/js/main.863b50c9.js",
     "static/js/787.25eaef86.chunk.js": "/house-of-gambling/static/js/787.25eaef86.chunk.js",
-    "static/media/icons-sprite.svg": "/house-of-gambling/static/media/icons-sprite.858fccfbb675896ed34d99f218e6ebed.svg",
+    "static/media/icons-sprite.svg": "/house-of-gambling/static/media/icons-sprite.ebb3553374be131c52c6bc51ec4718b7.svg",
     "static/media/logo@2x.webp": "/house-of-gambling/static/media/logo@2x.09a7e3bd638101ec3803.webp",
     "static/media/logo@2x.avif": "/house-of-gambling/static/media/logo@2x.2db74fc760ab3fcb18fb.avif",
     "static/media/logo.webp": "/house-of-gambling/static/media/logo.a4aaf184e3336bf7ce04.webp",
@@ -13,17 +13,18 @@
     "static/media/logo-mobile@2x.webp": "/house-of-gambling/static/media/logo-mobile@2x.2e21990c0e033f0b66be.webp",
     "static/media/logo-mobile@2x.avif": "/house-of-gambling/static/media/logo-mobile@2x.409a96d5299b0d2f64e1.avif",
     "static/media/bg-social-hover.svg": "/house-of-gambling/static/media/bg-social-hover.1adfdec26473bebbe87ae4541f16a636.svg",
+    "static/media/bg-social-mobile.svg": "/house-of-gambling/static/media/bg-social-mobile.a31dfa86e50d6c99ef6b7344dac7ec34.svg",
     "static/media/logo-mobile.avif": "/house-of-gambling/static/media/logo-mobile.7615742fb33e9512f87d.avif",
     "static/media/bg-social.svg": "/house-of-gambling/static/media/bg-social.25cc195ac729027c9f4dd6750af41918.svg",
     "static/media/logo-mobile.webp": "/house-of-gambling/static/media/logo-mobile.ad45c617c5a4f76ce261.webp",
     "index.html": "/house-of-gambling/index.html",
     "static/media/menu.svg": "/house-of-gambling/static/media/menu.05d2b082d333e6a264f5a0e27a367e0c.svg",
     "static/media/close.svg": "/house-of-gambling/static/media/close.38f7b4d996fddc8e0f29c017a736d1b4.svg",
-    "main.fa85b011.js.map": "/house-of-gambling/static/js/main.fa85b011.js.map",
+    "main.863b50c9.js.map": "/house-of-gambling/static/js/main.863b50c9.js.map",
     "787.25eaef86.chunk.js.map": "/house-of-gambling/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.fa85b011.js"
+    "static/js/main.863b50c9.js"
   ]
 }
