@@ -22,7 +22,6 @@ export const GlobalStyled = createGlobalStyle`
     flex-direction: column;
     height: 100%;
     min-width: 320px;
-    height: 100vh;
     background-color: ${theme.colors.primaryBg};
     color: ${theme.colors.font};
 
