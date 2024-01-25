@@ -4,6 +4,10 @@ import { theme } from '../../../styles/Theme';
 const Blog = styled.section`
     padding: 140px 0 130px;
 
+    @media ${theme.media.desktop} {
+        padding: 0 0 114px;
+    }
+
 `
 const BlogTitle = styled.h2`
     margin: 0;
@@ -15,7 +19,7 @@ const BlogTitle = styled.h2`
     text-align: center;
 
     @media ${theme.media.tablet} {
-        margin-bottom: 18px;
+        margin-bottom: 16px;
         font-size: 32px; 
     }
 `
@@ -26,6 +30,12 @@ const BlogContainer = styled.div`
     border-radius: 100px;
     border: 3px solid ${theme.colors.accent};
     padding-right: 16px;
+
+    @media ${theme.media.tablet} {
+        border-radius: 50px;
+        border: 2px solid ${theme.colors.accent};
+        padding-right: 6px;
+    }
     
 `
 
@@ -39,12 +49,24 @@ const BlogList = styled.ul`
     overflow: auto;
     scrollbar-width: 8px;
     scrollbar-color: ${theme.colors.accent} ${theme.colors.bgBlog};
+
+    @media ${theme.media.tablet} {
+        border-radius: 50px;
+        gap: 12px;
+        height: 420px;
+        padding: 10px 6px 10px 10px;
+        scrollbar-width: 4px;
+    }
     
     
 
     &::-webkit-scrollbar {
         width: 8px;
-        border-radius: 10px;
+        border-radius: 4px;
+
+        @media ${theme.media.tablet} {
+        width: 4px;
+    }
     }
 
     &::-webkit-scrollbar-track {
@@ -69,7 +91,8 @@ const BlogItem = styled.li`
     }
     
     @media ${theme.media.tablet} {
-        padding: 15px 35px;
+        padding: 12px 32px;
+        border-radius: 40px;
     }
 `
 
@@ -78,7 +101,7 @@ const BlogLink = styled.a`
 `
 
 const BlogText = styled.p`
-    width: 333px;
+    max-width: 333px;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 14px;
@@ -87,6 +110,7 @@ const BlogText = styled.p`
         line-height: 20px;
         margin-bottom: 6px;
         font-size: 16px;
+
     }
 `
 
