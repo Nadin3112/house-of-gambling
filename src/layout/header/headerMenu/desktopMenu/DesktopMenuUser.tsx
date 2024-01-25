@@ -5,10 +5,10 @@ import { LangMenu } from '../langMenu/LangMenu';
 
 export const DesktopMenuUser: React.FC = () => {
     return (
-        <S.MenuUser>
+        <S.DesktopMenuUser>
             <LangMenu />
             <Button aria-label={"log in"} btnType={'outlined'}>Log in</Button>
             <Button aria-label={"sign up"} btnType={'primary'}>Sign up</Button>
-        </S.MenuUser>
+        </S.DesktopMenuUser>
     );
 };

@@ -21,7 +21,7 @@ const Header = styled.header`
     @media ${theme.media.tablet} {
       position: relative;
       border: 2px solid ${theme.colors.accent};
-      padding: 6px 50px 6px 14px;
+      padding: 8px 50px 8px 14px;
       z-index: 9999;
     }
   }

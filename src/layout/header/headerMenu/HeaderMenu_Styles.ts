@@ -42,6 +42,15 @@ const MobileMenu = styled.nav`
   }
 `
 
+const MobileMenuUser = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding: 0;
+`
+
 const BurgerWrapper = styled.div`
   display: flex;
   gap: 8px;
@@ -78,7 +87,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
   position: absolute;
   width: 28px;
   height: 28px;
-  right: 14px;
+  right: 16px;
   top: 12px;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -112,20 +121,14 @@ const MenuList = styled.ul`
   }
   
 `
-const MenuUser = styled.div`
+const DesktopMenuUser = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 14px;
-
-    @media ${theme.media.tablet} {
-    flex-direction: column;
-    justify-content: center;
-    gap: 4px;
-    padding: 0;
-  }
 `
+
 //LangMenu
 
 const LangMenu = styled.div`
@@ -169,7 +172,7 @@ const LangMenu = styled.div`
         background-image: url(${planetMobile});
         background-size: 20px 20px;
         background-position: center;
-        padding: 6px;
+        padding: 6px 2px 6px 6px;
       }
   }
 `
@@ -177,7 +180,8 @@ const LangMenu = styled.div`
 export const S = {
   DesktopMenu,
   MenuList,
-  MenuUser,
+  DesktopMenuUser,
+  MobileMenuUser,
   MenuItem,
   NavLink,
   MobileMenu,
