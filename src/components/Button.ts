@@ -25,7 +25,7 @@ export const Button = styled.button<StyledBtnPropsType>`
         background-color: ${theme.colors.accent};
         border: none;
     `}
-        
+
     ${props => props.btnType === "outlined" && css<StyledBtnPropsType>`
         background-color: transparent;
         border: 2px solid ${theme.colors.accent};
