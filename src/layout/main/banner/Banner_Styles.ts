@@ -3,8 +3,10 @@ import styled from 'styled-components';
 const DesktopBanner = styled.div`
     display: flex;
     gap: 17px;
-    height: 1026px;
-    `
+    position: relative;
+    mask-image: linear-gradient(180deg, #FFF 63.64%, rgba(255, 255, 255, 0.00) 95.45%);
+
+`
 
 const DesktopBannerList = styled.ul`
     display: flex;
@@ -34,11 +36,13 @@ const MobileBanner = styled.div`
     display: flex;
     gap: 6px;
     flex-wrap: wrap;
+
 `
 
 const MobileBannerList = styled.ul`
         display: flex;
         gap: 12px;
+
 
     &:nth-of-type(odd) {
         animation: translateX 20s ease-in infinite alternate;
