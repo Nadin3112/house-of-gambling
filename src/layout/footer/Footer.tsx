@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '../../components/Container';
-import { FooterMenu } from './menu/FooterMenu';
+import { FooterMenu } from './footerMenu/FooterMenu';
 import { FlexWrapper } from '../../components/FlexWrapper';
 import { MobileSocial } from './social/mobileSocial/MobileSocial';
 import { DesktopSocial } from './social/desktopSocial/DesktopSocial';

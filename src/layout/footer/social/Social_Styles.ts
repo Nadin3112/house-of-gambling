@@ -3,12 +3,17 @@ import { theme } from '../../../styles/Theme';
 import bgSocial from '../../../assets/images/bg-social.svg';
 import bgSocialMobile from '../../../assets/images/bg-social-mobile.svg';
 import bgSocialHover from '../../../assets/images/bg-social-hover.svg';
+import bgSocialMobileHover from '../../../assets/images/bg-social-mobile-hover.svg';
 
 const Social = styled.div`
     display: flex;
     flex-direction: column;
     gap: 12px;
     flex-wrap: wrap;
+
+    @media ${theme.media.tablet} {
+        gap: 8px;
+    }
 `
 
 const SocialTitle = styled.h3`
@@ -48,6 +53,12 @@ const SocialLink = styled.a`
 
     &:hover {
         background-image: url(${bgSocialHover});
+
+        @media ${theme.media.mobile} {
+        width: 27px;
+        height: 27px;
+        background-image: url(${bgSocialMobileHover});
+    }
     }
 `
 
