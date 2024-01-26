@@ -63,7 +63,6 @@ const iconsMobileOneData = [
         height: "49",
         viewBox: "0 0 49 49",
     },
-    
 ]
 
 const iconsMobileTwoData = [
@@ -116,6 +115,7 @@ const iconsMobileTwoData = [
         viewBox: "0 0 109 49",
     }
 ]
+
 const iconsMobileThreeData = [
     {
         iconId: "shield-mobile",

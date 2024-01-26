@@ -6,7 +6,7 @@ import { Button } from '../../../components/Button';
 const Hero = styled.section`
     max-width: 658px;
     padding: 296px 0 0 8px;
-    
+
     @media ${theme.media.desktop} {
         padding: 70px 0 0;
         display: flex;
