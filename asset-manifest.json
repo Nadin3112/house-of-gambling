@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/house-of-gambling/static/css/main.31d6cfe0.css",
-    "main.js": "/house-of-gambling/static/js/main.863b50c9.js",
+    "main.js": "/house-of-gambling/static/js/main.90ae4976.js",
     "static/js/787.25eaef86.chunk.js": "/house-of-gambling/static/js/787.25eaef86.chunk.js",
     "static/media/icons-sprite.svg": "/house-of-gambling/static/media/icons-sprite.ebb3553374be131c52c6bc51ec4718b7.svg",
     "static/media/logo@2x.webp": "/house-of-gambling/static/media/logo@2x.09a7e3bd638101ec3803.webp",
@@ -13,6 +13,7 @@
     "static/media/logo-mobile@2x.webp": "/house-of-gambling/static/media/logo-mobile@2x.2e21990c0e033f0b66be.webp",
     "static/media/logo-mobile@2x.avif": "/house-of-gambling/static/media/logo-mobile@2x.409a96d5299b0d2f64e1.avif",
     "static/media/bg-social-hover.svg": "/house-of-gambling/static/media/bg-social-hover.1adfdec26473bebbe87ae4541f16a636.svg",
+    "static/media/bg-social-mobile-hover.svg": "/house-of-gambling/static/media/bg-social-mobile-hover.1e09d5c237104939bf2f92af8f190cc2.svg",
     "static/media/bg-social-mobile.svg": "/house-of-gambling/static/media/bg-social-mobile.a31dfa86e50d6c99ef6b7344dac7ec34.svg",
     "static/media/logo-mobile.avif": "/house-of-gambling/static/media/logo-mobile.7615742fb33e9512f87d.avif",
     "static/media/bg-social.svg": "/house-of-gambling/static/media/bg-social.25cc195ac729027c9f4dd6750af41918.svg",
@@ -20,11 +21,11 @@
     "index.html": "/house-of-gambling/index.html",
     "static/media/menu.svg": "/house-of-gambling/static/media/menu.05d2b082d333e6a264f5a0e27a367e0c.svg",
     "static/media/close.svg": "/house-of-gambling/static/media/close.38f7b4d996fddc8e0f29c017a736d1b4.svg",
-    "main.863b50c9.js.map": "/house-of-gambling/static/js/main.863b50c9.js.map",
+    "main.90ae4976.js.map": "/house-of-gambling/static/js/main.90ae4976.js.map",
     "787.25eaef86.chunk.js.map": "/house-of-gambling/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.863b50c9.js"
+    "static/js/main.90ae4976.js"
   ]
 }
