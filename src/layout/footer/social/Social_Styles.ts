@@ -3,7 +3,6 @@ import { theme } from '../../../styles/Theme';
 import bgSocial from '../../../assets/images/bg-social.svg';
 import bgSocialMobile from '../../../assets/images/bg-social-mobile.svg';
 import bgSocialHover from '../../../assets/images/bg-social-hover.svg';
-import bgSocialMobileHover from '../../../assets/images/bg-social-mobile-hover.svg';
 
 const Social = styled.div`
     display: flex;
@@ -16,7 +15,7 @@ const Social = styled.div`
     }
 `
 
-const SocialTitle = styled.h3`
+const SocialTitle = styled.p`
     font-size: 16px;
     line-height: 20px;
     align-self: flex-end;
@@ -51,14 +50,9 @@ const SocialLink = styled.a`
         background-image: url(${bgSocialMobile});
     }
 
-    &:hover {
+    &:hover,
+    &:active {
         background-image: url(${bgSocialHover});
-
-        @media ${theme.media.mobile} {
-        width: 27px;
-        height: 27px;
-        background-image: url(${bgSocialMobileHover});
-    }
     }
 `
 
