@@ -20,7 +20,7 @@ export const GlobalStyled = createGlobalStyle`
         -moz-osx-font-smoothing: grayscale;
         display: flex;
         flex-direction: column;
-        height: 100%;
+        height: 100vh;
         min-width: 320px;
         background-color: ${theme.colors.primaryBg};
         color: ${theme.colors.font};

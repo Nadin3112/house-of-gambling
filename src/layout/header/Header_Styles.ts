@@ -22,7 +22,6 @@ const Header = styled.header`
       position: relative;
       border: 2px solid ${theme.colors.accent};
       padding: 8px 50px 8px 14px;
-      z-index: 9999;
     }
   }
 

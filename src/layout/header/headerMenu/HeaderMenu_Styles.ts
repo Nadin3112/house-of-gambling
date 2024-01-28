@@ -18,7 +18,6 @@ const NavLink = styled.a`
     line-height: 20px;
     color: ${theme.colors.font}; 
     padding: 8px;
-  
 
     @media ${theme.media.tablet} {
         display: flex;
@@ -57,22 +56,22 @@ const BurgerWrapper = styled.div`
 
 const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     position: fixed;
-    top: 0;
+    top: 66px;
     bottom: 0;
     right: 0;
-    width: 100%;
-    z-index: 99;
-    background-color: ${theme.colors.primaryBg};
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    transform: translateY(-100%);
+    background-color: ${theme.colors.primaryBg};
+    width: 100%;
+    z-index: 99;
+    transform: translateX(-100%);
     transition: 1s ease-in-out;
 
 
     ${props => props.isOpen && css <{ isOpen: boolean }> `
-        transform: translateY(0);
+        transform: translateX(0);
     `}
 
     ${Button} {
@@ -95,7 +94,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
     z-index: 999;
     border: none;
     cursor: pointer;
-  
+
     ${props => props.isOpen && css <{ isOpen: boolean }> `
         background-image: url(${close});
     `}
@@ -115,9 +114,8 @@ const MenuList = styled.ul`
         flex-direction: column;
         justify-content: center;
         gap: 4px;
-        padding-top: 96px;
-  }
-  
+        padding-top: 30px;
+    }
 `
 const DesktopMenuUser = styled.div`
     display: flex;
@@ -141,7 +139,7 @@ const LangMenu = styled.div`
         width: 36px;
         min-height: 36px;
     }
-  
+
     select {
         position: absolute;
         padding: 14px 14px 14px 38px;
